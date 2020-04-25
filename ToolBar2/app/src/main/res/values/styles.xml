@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+<!--        标题栏颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+<!--        状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+<!--        强调颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        窗口颜色-->
+        <item name="android:windowBackground">@android:color/white</item>
+
+<!--        菜单窗口颜色-->
+        <item name="android:itemBackground">@android:color/white</item>
+<!--        菜单字体颜色-->
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+<!--        菜单显示试图是否覆盖ToolBar 视图-->
+        <item name="overlapAnchor">false</item>
+
+    </style>
+
+</resources>
