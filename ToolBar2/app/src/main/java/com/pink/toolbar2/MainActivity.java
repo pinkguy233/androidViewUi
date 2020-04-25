@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.google.android.material.navigation.NavigationView;
+
 public class MainActivity extends AppCompatActivity {
 
     private AnimationDrawable mAnimationDrawable;
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer= findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,drawer,toolbar,R.string.close,R.string.open);
         toggle.syncState(); //同步 DrawerLayout 状态
+
+
+
     }
 
 
