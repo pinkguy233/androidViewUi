@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_wallpaper"
+        android:icon="@drawable/backup"
+        android:title="首页" />
+    <item
+        android:id="@+id/main_music"
+        android:icon="@drawable/delete"
+        android:title="频道" />
+    <item
+        android:id="@+id/main_my"
+        android:icon="@drawable/menu"
+        android:title="动态" />
+
+</menu>

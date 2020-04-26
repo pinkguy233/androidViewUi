@@ -33,11 +33,29 @@
                 android:text="内容"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/bottomNavigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/colorWhite"
+                    app:menu="@menu/navigation" />
+            </RelativeLayout>
+
         </LinearLayout>
 
 
 <!--    侧滑菜单-->
         <com.google.android.material.navigation.NavigationView
+
             android:layout_gravity="left"
             android:layout_width="250dp"
             android:layout_height="match_parent"
